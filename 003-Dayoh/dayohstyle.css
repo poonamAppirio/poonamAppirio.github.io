@@ -1,0 +1,148 @@
+
+/*   ------------------------------------------Reset CSS ------------------------------------------------------  */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*   ------------------------------------------End of Reset CSS ------------------------------------------------------  */
+
+
+
+/*   ------------------------------------------ custom CSS ------------------------------------------------------  */
+
+
+.body{
+	font-family: 'Lato', sans-serif;
+
+}
+.intro{padding-left: 10%;}
+/*.mycontainer{border: 1px solid grey; }*/
+.container{
+	width: 70%;
+	padding: 0;
+}
+.section1{
+	padding-top: 10%;
+	color:white;
+	margin: 1px;
+}
+.top-text{ text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75);}
+.section1 span{
+	font-size: 15px;
+}
+h1{
+	font-size: 40px;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+.sec1{color: grey;}
+.signing{ color: white; font-size: 20px; padding: 2%;  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75); padding-left: 0 !important; padding-right: 0 !important;}
+.signing button{width: 80px;}
+.why{ font-size: 24px; padding-top: 10%;}
+.desc{ font-size: 12px; padding-top: 5%;}
+.interestedo{padding-left: 10%;}
+.interested{line-height: 30px;}
+.more{ 
+	font-size: 13px; 
+	padding: 8px 10px 8px 10px; 
+	background-color: #5e95cd;
+  	color:white;
+  	border: none;
+  	margin-top: 3%;
+  	margin-bottom: 10%;
+  	border-radius: 0;
+  	width: 160px;
+}
+.phone img{width:90%;}
+.section2{
+	background-color: white;
+	margin-top: -30%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.section3 button{margin-top:0; background-color: #E9756D; border:1px solid white;}
+.section3{
+	font-size: 16px;
+	background-color: #e8776b;
+    margin-top: -5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.ico{ color: #E9756D; font-size: 40px; padding: 4%; border:1px solid lightgrey; border-radius: 50%; width: 30%; margin-bottom: 6%;}
+.mac img{width: 90%;  margin-top: 10%; margin-left: 15%;}
+.mac{background-color: #5e95cd; padding-bottom: 5%;}
+.table-lookalike{padding: 4% 15%; background-color: white; margin: 1px;}
+.table-lookalike li{border:1px solid #eeeeee; padding: 5% 0; border-top: none; border-right: 0;}
+.table-lookalike .cols{padding: 0;}
+.table-lookalike ul:first-child{border-top:1px solid lightgrey;}
+.table-lookalike ul li:nth-child(2){padding: 12% 0; color: #E9756D; font-size: 25px; }
+.table-lookalike ul li:first-child{background-color: #e1e1e1;}
+.table-lookalike ul li:first-child:hover{background-color: #E9756D; color: white;}
+.table-lookalike .last-ul{border-right: 1px solid lightgrey;}
+.table-lookalike ul li:nth-child(even){background-color: #eeeeee;}
+.table-lookalike ul li .btn{background-color: #E9756D; color:white; width: 80%; padding: 5%;}
+.table-lookalike .active{background-color: #E9756D !important; color: white;}
+.owl-prev, .owl-next{ color: #E9756D !important; background-color: transparent !important; margin-top: -15% !important;}
+.owl-next{ float: right !important; margin-right: -10% !important;}
+.owl-prev{ float: left !important; margin-left: -10% !important;}
+.owl-theme img{ border-radius: 50%;}
+.arrow-left, .arrow-right{ font-size: 50px; background-color: transparent; }
+.owl-dot .active{color: #e8776b;}
+.owl-carousel{background: white; padding: 4% 20%; max-height: 300px;}
+.owl-carousel .media-body{padding-top: 5%; color: grey; line-height: 20px;}
+.owl-carousel b{font-size: 25px;}
+.owl-carousel span{font-size: 14px;}
+.owl-carousel .media-body button{background-color: #E9756D; color: white; padding-left: 10px;}
+/*.social_ico{width: 100px; padding-top: 3px;}
+*/.social_icons a{ color: white; font-size: 15px;}
+.social_icons span{padding: 5px; border-radius: 50%; border: 1px solid white; width: 40%;}
+.footer{ background-color:  #E9756D; margin: 0; width: 100%; font-size: 14px; padding: 4% 10%; color: white;}
+
+@media only screen and (max-width : 768px) {
+	.owl-carousel .media-body{ text-align: center;}
+	.section2{margin-top: -50%;}
+	.container{width: 100%;}
+}
+/*   ------------------------------------------ End of custom CSS ------------------------------------------------------  */

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Autocomplete</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="auto.css">
+ </head>
+ <body>
+   <div class="mycontainer">
+     <h1 class="header-main text-center">Search States of Unites States</h1>
+   <div class="container custom-container">
+   <div class="ui-widget text-center">
+     <input id="city" placeholder="search-city" class="form-control">
+   </div>
+   
+
+     <!-- scripts -->
+     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+     <script src="js/auto.js" charset="utf-8"></script>
+     <script>
+     $( function() {
+       $(" #city ").autoCompleteUSA_State();
+       $(" .ui-id-1 ").addClass("container");
+     });
+     </script>
+     </div>
+   </div>
+ </body>
+</html>
