@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="newlog.css">
+  
+</head>
+
+
+<body>
+
+<!-- Sign up section -->
+ <div class="container">
+  <form class="form">
+    <ul class="tab-group" style="padding: 0;">
+      <li class="tab active"><a data-toggle="tab" href="#signin">SIGN IN</a></li>
+      <li class="tab"><a data-toggle="tab" href="#signup">SIGN UP</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="signin" class="tab-pane fade in active">
+        <form>
+            <div class="form-group">
+              <label for="username" class="control-label">USERNAME</label><br>
+              <input type="email" name="user" id="lineHeight">
+            </div>
+            <div class="form-group">
+              <label for="password" class="control-label">PASSWORD</label><br>
+              <input type="password" name="pass" id="lineHeight">
+            </div>
+            <div style="color:white;"><input type="checkbox" class="check">Keep me logged in</div>
+            <div class="sign"> 
+              <button class="btn" id="bts">SIGN IN</button> 
+              </div>
+             <div class="forgot"><a href="#" style="border:0;">Forgot Password?</a></div>
+          </form>
+        </div>
+        <div id="signup" class="tab-pane fade in">
+             <form >
+             <div class="form-group">
+              <label for="username" class="control-label">NAME</label><br>
+              <input type="text" name="name" id="lineHeight">
+            </div>
+            <div class="form-group">
+              <label for="username" class="control-label">USERNAME</label><br>
+              <input type="email" name="user" id="lineHeight">
+            </div>
+            <div class="form-group">
+              <label for="password" class="control-label">PASSWORD</label><br>
+              <input type="password" name="pass" id="lineHeight">
+            </div>
+             <div class="form-group">
+              <label for="password" class="control-label">CONFIRM PASSWORD</label><br>
+              <input type="password" name="cnfpass" id="lineHeight">
+            </div>
+            <div style="color:white;"><input type="checkbox" class="check">Keep me logged in</div>
+            <div class="sign"> 
+              <button class="btn" id="bts">SIGN IN</button> 
+              </div>
+          </form>
+          </div>
+        </div>
+  </form>
+  </div>
+<!-- End of Sign up section -->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
