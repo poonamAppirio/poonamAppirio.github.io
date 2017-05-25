@@ -11,3 +11,14 @@
  	$('.navbar-collapse ul li a').click(function(){
  		$(".navbar-collapse").collapse('hide');
  	});
+  $(".intro-body a").on('click', function(event) {
+ 	 	if(this.hash!=''){
+ 	 		console.log(this.hash);
+ 	 	var hash = this.hash;
+     $('html, body').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 400, function(){
+        window.location.hash = hash;
+      });
+ 	}
+  });
