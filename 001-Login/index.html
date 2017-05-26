@@ -1,43 +1,24 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
-  <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
-    
-    <link rel="stylesheet" type="text/css" href="assign1.css">
-    
-    <title>LOGIN</title>
-  </head>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="loginbox.css">
+</head>
 
-<!-- Sign in section -->
-  <body>
-  	  <div>
-  	    <form action="" class="login-form">
-        <div class="SIGN-IN text-center">SIGN IN</div>
-        
-        <div class="input-group name">
-        	<span class="input-group-addon male fa fa-user"></span>
-            <input type="text" name="username" class="no-border" placeholder="Username" required="true">
-        </div>
-        <div class="input-group name">
-        	<span class="input-group-addon key fa fa-key"></span>
-            <input type="password" name="password" class="no-border" placeholder="Password" required="true">
-        </div>
-        <div class="form-group text-center">
-        <button type="submit" class="btn btn-default no-border Rounded-Rectangle-1">SIGN IN</button>
-        </div>
-        <div class="Forgot-password text-center"><a href="">Forgot password?</a></div>
-        <div class="create-new text-center">Don’t have an account? <span class="create-new-1"><a href="">Create one now.</a></span></div>
-      	</form>
-      </div>
-    <!-- End of Sign in section -->
+<body>
+	  <!-- Sign in section -->
+	  <div class="login">
+	  	<form action="">
+	 	  <div class="ip"><input class="form-control input-lg" type="text" name="username" required placeholder="username"/></div>
+	  	  <div class="ip"><input class="form-control input-lg" type="password" name="pass" required placeholder="password"></div>
+	  	  <div class="ip"><button class="btn btn-default btn-lg" type="submit">LOGIN</button></div>
+	  	  <div class="link"><span>Not Registered?</span><a href="">    Create an account</a></div>
+		</form>
+	 </div>
+	 <!-- End of Sign in section -->
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
-</html>
+    
+</body>
