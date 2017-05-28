@@ -28,29 +28,35 @@ h1 {
     padding-top: 10%;
     font-size: 20px; }
 
+#beginner span, #inter span{
+    width: 95%;
+    margin-left: 2%;}
+
 a {
   text-decoration: none; }
   a:hover, a:focus, a:active {
     text-decoration: none; }
-
 span a {
   width: 50%;
   color: white; }
-  span a:hover {
-    color: white;
-    font-weight: bold; }
+span a:hover {
+  color: white;
+  font-weight: bold; }
+
+.img-responsive:hover{ box-shadow: 0 35px 15px 0 grey; margin-top: -12px;}
+.img-responsive{height:200px; margin: 0 auto; transition: margin-top .4s ease;}
 
 .developers a {
   color: grey;
   padding-right: 100px; }
-  .developers a:after {
-    content: '';
-    display: block;
-    border-bottom: 1px solid black;
-    width: 0;
-    position: absolute;
-    -webkit-transition: 1s ease;
-    transition: 1s ease; }
+.developers a:after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 0;
+  position: absolute;
+  -webkit-transition: 1s ease;
+  transition: 1s ease; }
 
 .active {
   border-bottom: 1px solid #d3d3d3; }
