@@ -21,20 +21,15 @@ h1 {
   text-decoration: none;
   text-align: center;
   opacity: 0.8;
-  transition: all 1s ease;
   text-transform: uppercase; }
-  .thumbnails span:hover {
-    height: 30%;
-    padding-top: 10%;
-    font-size: 20px; }
-
+  
 #beginner span, #inter span{
     width: 95%;
     margin-left: 2%;}
 
 a {
   text-decoration: none; }
-  a:hover, a:focus, a:active {
+  a:hover, a:focus, a:active, a:visited {
     text-decoration: none; }
 span a {
   width: 50%;
@@ -105,9 +100,6 @@ span a:hover {
     width: 200%;
     height: 850px; }
 
-a img {
+a .gitlogo {
   width: 30%;
   margin-right: 45%; }
-  a img:hover {
-    width: 40%;
-    margin-right: 35%; }
