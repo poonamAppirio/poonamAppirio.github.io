@@ -53,10 +53,10 @@ table {
 
   body{ background-color: #7fce6d; font-family: 'Roboto Condensed', sans-serif; }
   .login{background-color: white; margin:10% auto; padding: 5%;  box-shadow: 0 0 30px #656664; width:40%; }
-  .login .ip{ padding-top: 3%; padding-bottom: 3%; margin: 0; border: none;}
+  label{color:green; font-weight: 300; visibility: hidden;}
   .form-control{border-radius: 0%; border: none; background-color: #f0f4ef;}
-  .btn{background-color: #5cad4a; width: 100%; border-radius: 0%; color: white;}
-  .btn:hover{border:none; background-color: #89d675; color: white;}
+  .btn{background-color: #5cad4a; width: 100%; border-radius: 0%; color: white; margin-bottom: 3%; text-transform: uppercase;}
+  .btn:hover{background-color: #89d675; color: white;}
   .link{text-align:center;}
   .link a{color:green; text-decoration: none;}
   .link span{color: grey;}
