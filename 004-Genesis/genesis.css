@@ -4,12 +4,12 @@ body{
 	background-color: #cccccc;
 }
 .nextitems li a{
-	padding-bottom: 30px !important;
-	padding-top: 30px !important;
+	padding-bottom: 30px;
+	padding-top: 30px;
 	font-weight: bold;
 }
 .nextitems li:hover{
-	background-color: #D70004 !important;
+	background-color: #D70004;
 	color: white;
 }
 .my-profile li:last-child{
@@ -19,14 +19,16 @@ body{
 	font-size: 15px;
 	font-weight: bold;
 }
+.dig{ width: 8px; margin-right: 15px;}
+.rd { color: red; }
 .nextitems a:hover{
-	color: white !important;
+	color: white;
 	font-weight: bold;
 }
-.nextitems .active a{background-color: #D70004 !important;}
+.collapse .nextitems .active a{background-color: #D70004;}
 .wrapper{
 	background-color: white;
-	margin: 2%;
+	margin: 10px;
 	padding:0px;
 }
 .navbar{
@@ -34,14 +36,9 @@ body{
 	border-bottom: 4px solid red;
 	margin-bottom: 0;
 }
-.nav>li>a{
-	color:white !important;
-}
-
-#text{
-	text-align: center;
+.text{
 	font-size: 19px;
-	padding: 2%;
+	padding: 20px;
 }
 .carousel-text{
 	text-align: center;
@@ -49,17 +46,20 @@ body{
     padding-left: 8px;
     padding-right: 8px;
 }
-.CREATIVE{
+.creative{
 	background-color: black;
 	color:white;
 	width: 60%;
 	font-size: 30px;
 	margin: auto;
+	text-transform: uppercase;
 }
-.first .carousel-inner{background-color: #E2E2E2;}
-.first .carousel-control{background: transparent !important;}
+.bld { font-weight: bold; }
+h4, h5, .it{ text-transform: uppercase; }
+.first .inn{background-color: #E2E2E2;}
 .first .carousel-control .glyphicon{background-color: black;}
-.carousel-indicators li{
+.first{margin-bottom: 5px;}
+.anim li{
 	background-color:black;
 	border: 1px solid black;
 }
@@ -68,7 +68,6 @@ body{
     top: 0;
     bottom: 0;
     left: 0;
-    width: 3%;
     font-size: 20px;
     text-align: center;
     opacity:0.2;
@@ -76,9 +75,7 @@ body{
 .carousel-control:hover,.carousel-control:focus{
     opacity:0.2;
 }
-#myCarousel{
-	margin-bottom: 0.4%;
-}
+
 .feature{
 	margin: auto;
 	background-color: red;
@@ -92,7 +89,7 @@ body{
 	text-align: center;border-top: 2px solid #CCCCCC;padding: 0;
 }
 .featurecol{
-	padding-top: 1%;
+	padding-top: 10px;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px #CCCCCC;
 }
@@ -116,12 +113,9 @@ body{
 .date-foot ul{
 	list-style: none;
 }
-#rightborder{
-	border-right: 1px solid #CCCCCC;
-}
 .date-row{
-	padding-top: 1%;
-	padding-bottom: 1%;
+	padding-top: 5px;
+	padding-bottom: 2px;
 	text-align: left;
 	display: -webkit-inline-box;
 }
@@ -131,19 +125,19 @@ body{
 .caro{ padding-top: 30px; padding-right: 2px;}
 .tab-container{
   background-color: #ffffff;
-  padding: 0 !important;
+  padding: 0;
 }
-.tab-menu{
+.strtab{
 	font-size: 10px;
  	padding: 0;
  }
  .lef, .rig{
- 	padding-left: 25px !important;
+ 	padding-left: 25px;
  }
 .lef .comment{font-size: 12px; }
-.list-group-item.active,.list-group-item.active:focus{
-	border-radius:4px 0 0 4px !important;
-	margin-right: -1%;
+.it.active,.it.active:focus{
+	border-radius:4px 0 0 4px;
+	margin-right: -2px;
 	border:1px solid lightgrey;
 	border-top: 3px solid lightgrey;
 	border-right: none;
@@ -151,8 +145,10 @@ body{
 	background-color: white;
 	color:black;
 }
+.it{border:none;border-radius: 0;}
+
 .selected{color: white; background-color: grey; padding: 1px; border-radius: 4px;}
-.blockquotes{border-left: 5px solid #EEEEEE; padding-left: 4%; margin-top: 3%; font-weight: bold;}
+.blockquotes{border-left: 5px solid #EEEEEE; padding-left: 20px; margin-top: 25px; font-weight: bold;}
 .tab-content:not(.active){
   display: none;
 }
@@ -164,15 +160,43 @@ body{
 .image{
 width: 100%;
 }
+.site_logo {margin-top: 20px;}
 .choose{
 padding: 16px 0;
 font-size: 14px;
 font-weight: bold;
 margin-top: 20px;
 margin-bottom: 5px;
+text-transform: uppercase;
 }
+.icon-bar{background-color:white;}
 .cl{padding: 5px 0px 5px 0px;}
-.list-group-item{border:none;border-radius: 0 !important;}
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+	.inn .active.left { left: -100%; }
+	.inn .next        { left:  100%; }
+	.inn .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.inn .active.left { left: -50%; }
+	.inn .next        { left:  50%; }
+	.inn .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.inn .active.left { left: -25%; }
+	.inn .next        { left:  25%; }
+	.inn .prev		 { left: -25%; }	
+}
+
+
+/*
 .footer{color: grey; font-weight:normal; font-size:12px;padding-top: 3%; padding-bottom: 2%; background-color: #242424; margin-top: 10px; list-style: decimal-leading-zero;}
 .social_icons span{font-size: 20px; }
 .social_icons .fa{padding: 3%; background-color: lightgrey; border-radius: 100%; color: black;}
@@ -182,29 +206,5 @@ a:hover{text-decoration: none; color:grey;}
 .post a{font-weight: normal;}
 .post{ border-bottom: 1px dotted black; padding: 2%;}
 .copyright{color: white; padding: 1% 1% 1% 1%; background-color: black; font-size: 10px;}
-.carousel-control 			 { width:  4%; }
-.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
-@media (max-width: 767px) {
-	.carousel-inner .active.left { left: -100%; }
-	.carousel-inner .next        { left:  100%; }
-	.carousel-inner .prev		 { left: -100%; }
-	.active > div { display:none; }
-	.active > div:first-child { display:block; }
-
-}
-@media (min-width: 767px) and (max-width: 992px ) {
-	.carousel-inner .active.left { left: -50%; }
-	.carousel-inner .next        { left:  50%; }
-	.carousel-inner .prev		 { left: -50%; }
-	.active > div { display:none; }
-	.active > div:first-child { display:block; }
-	.active > div:first-child + div { display:block; }
-}
-@media (min-width: 992px ) {
-	.carousel-inner .active.left { left: -25%; }
-	.carousel-inner .next        { left:  25%; }
-	.carousel-inner .prev		 { left: -25%; }	
-}
-
-
+*/
 /*   ------------------------------------------ End of custom CSS ------------------------------------------------------  */

@@ -18,20 +18,26 @@
 			<h2>welcome to validation</h2>
 			<form action="#">
 				<div class="inputs">
-					<input type="email" name="Username" placeholder="Your Email" required/>
-				<div class="icons">
-					<i class="fa fa-user" aria-hidden="true"></i>
-				</div>
+					<div class="form-group">
+						<label for="usr">Username:</label>
+						<input type="email" name="Username" placeholder="Your Email" required id="usr"/>
+					</div>
+					<div class="icons">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div>
 				</div>
 				<div class="inputs">
-					<input type="password" name="Password" placeholder="Password" required />
-				<div class="icons">
-					<i class="fa fa-unlock-alt" aria-hidden="true"></i>
-				</div>
+					<div class="form-group">
+						<label for="pass">Password:</label>
+						<input type="password" name="Password" placeholder="Password" required id="pass"/>
+					</div>
+					<div class="icons">
+						<i class="fa fa-unlock-alt" aria-hidden="true"></i>
+					</div>
 				</div>
 				
 				<div class="submitbtn">
-					<button type="submit" value="Login">LOGIN</button>
+					<button type="submit" value="Login">login</button>
 				</div>
 			</form>
 		</div>

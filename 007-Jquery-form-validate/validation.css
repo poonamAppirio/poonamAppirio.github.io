@@ -10,13 +10,16 @@ table{border-collapse:collapse;border-spacing:0;}
 /*--main-content-starts-here--*/
 body {
 	font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
     background-size: cover !important;
 	background: url(images/back.jpg)no-repeat 0px 0px;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Oswald', sans-serif;
-
+}
+label{
+    visibility: hidden;
+    height: 0;
+    width: 0;
 }
 .main{max-width: 500px; margin:5% auto;}
 .main-form h2 {
@@ -26,11 +29,11 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     margin-bottom: 2em;
     letter-spacing: 2px;
+    text-transform: uppercase;
+
 }
 .main-form {
 	background: rgba(4, 4, 4, 0.56);
-    -webkit-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
-    -moz-box-shadow: 0px 35px 44px -22px rgba(0,0,0,0.72);
     box-shadow: 0px 35px 44px -22px #1f181b;
     padding: 60px 40px;
 }
@@ -72,7 +75,6 @@ form {
     -webkit-appearance: none;
     margin-bottom: 30px;
     background: transparent;
-	font-family: 'Open Sans', sans-serif;
 }
 .submitbtn button{
     background: #fff;
@@ -86,11 +88,9 @@ form {
     margin-top: 55px;
     font-weight: bold;
     text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
 	transition: 0.3s all;
     -webkit-transition: 0.3s all;
     -moz-transition: 0.3s all;
-    -o-transition: 0.3s all;
     -ms-transition: 0.3s all;
 }
 .submitbtn button:hover{
@@ -99,7 +99,6 @@ form {
 	transition: 0.3s all;
     -webkit-transition: 0.3s all;
     -moz-transition: 0.3s all;
-    -o-transition: 0.3s all;
     -ms-transition: 0.3s all;
 }
 /*--main-content-ends-here--*/

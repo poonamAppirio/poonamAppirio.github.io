@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>eDirectory</title>
@@ -22,14 +22,14 @@
               <a href="index.html"><img src="images/logo.png" class="site_logo" alt=""></a>
             </ul>
             <ul class="pull-right top-menu col-sm-4 hidden-xs hidden-sm">
-              <li><a href="#"><i class="fa fa-phone"></i>987654321</a></li>
-              <li><a href="#"><i class="fa fa-user-circle"></i>Sign In</a></li>
-              <li><a href="#"><i class="fa fa-pencil-square-o" ></i>Create your profile</a></li>
+              <li><a href="#"><span class="fa fa-phone"></span> 987654321</a></li>
+              <li><a href="#"><span class="fa fa-user-circle"></span> Sign In</a></li>
+              <li><a href="#"><span class="fa fa-pencil-square-o" ></span> Create your profile</a></li>
             </ul>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"  style="background-color:white"></span>
-                        <span class="icon-bar"  style="background-color:white"></span>
-                        <span class="icon-bar"  style="background-color:white"></span>                        
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
             </button>
           </div>
         </div>
@@ -42,13 +42,13 @@
         <div class="container next">
             <div class="collapse navbar-collapse " id="myNavbar">
                 <ul class="nav navbar-nav nextitems">
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="#">LISTINGS</a></li>
-                    <li><a href="#">ARTICLES</a></li>
-                    <li><a href="#">CLASSIFIEDS</a></li>
-                    <li><a href="#">DEALS</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT US</a></li>
+                    <li class="active"><a href="#">home</a></li>
+                    <li><a href="#">listings</a></li>
+                    <li><a href="#">articles</a></li>
+                    <li><a href="#">classifieds</a></li>
+                    <li><a href="#">deals</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact us</a></li>
                 </ul>
             </div>
         </div>
@@ -63,7 +63,8 @@
             <div class="row search" id="searchBar">
                 <form autocomplete="true">
                     <div class="col-md-3 form-group">
-                        <input type="text" class="form-control" placeholder="keyword.." id="searchtxt">
+                        <label for="searchtxt">Search Text</label>
+                        <input type="text" class="form-control searching" placeholder="keyword.." id="searchtxt">
                     </div>
                     <div class="col-md-3 form-group">
                         <div class="dropdown">
@@ -88,7 +89,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 form-group">
-                        <button type="submit" id="searchbutton" class="btn btn-default">  <i class="fa fa-search" aria-hidden="true"></i>Search Now 
+                        <button type="submit" id="searchbutton" class="btn btn-default subm">  <span class="fa fa-search" aria-hidden="true"></span> Search Now 
                 		</button>
                     </div>
                 </form>
@@ -99,45 +100,45 @@
      <!-- FEATURED LISTINGS section -->
             <div class="row subpanel">
                 <div class="row sub1">
-                    <div class="sub2"><span class="pull-left headings">FEATURED LISTINGS</span><span class="pull-right">View all listings </span></div>
+                    <div class="sub2"><span class="pull-left headings">featured listings</span><span class="pull-right">View all listings </span></div>
                 </div>
 
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel owl-theme owl-here">
                     <div class="item">
                         <p>
                             <a href="#"><img class="img-responsive" src="images/project_img1.jpg" /></a>
                         </p>
-                        <a class="topic" href="#">Academy Theater</a><br/>
-                        <p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p>
+                        <a class="topic" href="#">Academy Theater</a>
+                        <div><p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p></div>
                     </div>
                     <div class="item">
                         <p>
                             <a href="#"><img class="img-responsive" src="images/project_img2.jpg" /></a>
                         </p>
-                        <a class="topic" href="#">Academy Theater</a><br/>
-                        <p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p>
+                        <a class="topic" href="#">Academy Theater</a>
+                        <div><p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p></div>
                     </div>
 
                     <div class="item">
                         <p>
                             <a href="#"><img class="img-responsive" src="images/project_img3.jpg" /></a>
                         </p>
-                        <a class="topic" href="#">Academy Theater</a><br/>
-                        <p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p>
+                        <a class="topic" href="#">Academy Theater</a>
+                        <div><p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p></div>
                     </div>
                     <div class="item">
                         <p>
                             <a href="#"><img class="img-responsive" src="images/project_img4.jpg" /></a>
                         </p>
-                        <a class="topic" href="#">Academy Theater</a><br/>
-                        <p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p>
+                        <a class="topic" href="#">Academy Theater</a>
+                        <div><p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p></div>
                     </div>
                     <div class="item">
                         <p>
                             <a href="#"><img class="img-responsive" src="images/project_img2.jpg" /></a>
                         </p>
-                        <a class="topic" href="#">Academy Theater</a><br/>
-                        <p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p>
+                        <a class="topic" href="#">Academy Theater</a>
+                        <div><p>in <a href="#" class="subinfo">Real Estate</a> by <a href="#" class="subinfo">Anthony Bill</a> This is example text for the overview section. One for all and all for o...</p></div>
                     </div>
                 </div>
 <!-- END OF FEATURED LISTINGS section -->
@@ -145,7 +146,7 @@
 <!-- FEATURED DEALS section -->
           
                 <div class="row sub1">
-                    <div class="sub2"><span class="pull-left headings">FEATURED DEALS</span><span class="pull-right">View all deals</span></div>
+                    <div class="sub2"><span class="pull-left headings">featured deals</span><span class="pull-right">View all deals</span></div>
                 </div>
                 <div class="cardeal">
                     <div class="col-sm-6">
@@ -158,7 +159,7 @@
                             <div class="pull-right col-xs-12 car">
                                 <div class="col-xs-12"><a><img src="images/car.jpg" alt="55% off - The Prettiest Beauty Parlon" title="55% off - The Prettiest Beauty Parlon"></a></div>
                             </div>
-                            <div class="col-xs-offset-2 deal-des"><p><strong><a href="detail.html" title="55% off - The Prettiest Beauty Parlon">55% off - The Prettiest Beauty Parlon</a></strong><br/>by <a href="#" title="The Prettiest Beauty Parlon">The Prettiest Beauty Parlon</a></p></div>
+                            <div class="col-xs-offset-2 deal-des"><p><span class="bld"><a href="detail.html" title="55% off - The Prettiest Beauty Parlon">55% off - The Prettiest Beauty Parlon</a></span><span>by <a href="#" title="The Prettiest Beauty Parlon">The Prettiest Beauty Parlon</a></span></p></div>
                             
                         </div>
                     </div>
@@ -167,26 +168,26 @@
                             <div class="item">
                                 <div class="arrow-left"></div>
                                 <div class="deal-tag">$70</div>
-                                <div class="col-xs-offset-2 deal-des"><p><strong><a href="detail.html" title="70% OFF for satellite T.V. at Soft Bed Hotel">70% OFF for satellite T.V. at Soft Bed Hotel</a></strong>
-                                    <br/>by <a href="#" title="Soft Bed Hotel">Soft Bed Hotel</a></p></div>
+                                <div class="col-xs-offset-2 deal-des"><p><span class="bld"><a href="detail.html" title="70% OFF for satellite T.V. at Soft Bed Hotel">70% OFF for satellite T.V. at Soft Bed Hotel</a></span>
+                                    <span>by <a href="#" title="Soft Bed Hotel">Soft Bed Hotel</a></span></p></div>
                             </div>
                             <div class="item">
                                 <div class="arrow-left"></div>
                                 <div class="deal-tag">$50</div>
-                                <div class="col-xs-offset-2 deal-des"><p><strong><a href="detail.html" title="$50 - one month - Workout Gym">$50 - one month - Workout Gym</a></strong>
-                                    <br/>by <a href="#" title="Workout">Workout</a></p></div>
+                                <div class="col-xs-offset-2 deal-des"><p><span class="bld"><a href="detail.html" title="$50 - one month - Workout Gym">$50 - one month - Workout Gym</a></span>
+                                    <span>by <a href="#" title="Workout">Workout</a></span></p></div>
                             </div>
                             <div class="item">
                                 <div class="arrow-left"></div>
                                 <div class="deal-tag">$23</div>
-                                <div class="col-xs-offset-2 deal-des"><p><strong><a href="detail.html" title="$23 For 30 Minute Massage">$23 For 30 Minute Massage</a></strong>
-                                    <br/>by <a href="#" title="Relaxation Spa">Relaxation Spa</a></p></div>
+                                <div class="col-xs-offset-2 deal-des"><p><span class="bld"><a href="detail.html" title="$23 For 30 Minute Massage">$23 For 30 Minute Massage</a></span>
+                                    <span>by <a href="#" title="Relaxation Spa">Relaxation Spa</a></span></p></div>
                             </div>
                             <div class="item">
                                 <div class="arrow-left"></div>
                                 <div class="deal-tag">$60</div>
-                                <div class="col-xs-offset-2 deal-des"><p><strong><a href="detail.html" title="Weekday Promotion - 60% OFF">Weekday Promotion - 60% OFF</a></strong>
-                                    <br/>by <a href="#" title="Golf Club Resort">Golf Club Resort</a></p></div>
+                                <div class="col-xs-offset-2 deal-des"><p><span class="bld"><a href="detail.html" title="Weekday Promotion - 60% OFF">Weekday Promotion - 60% OFF</a></span>
+                                    <span>by <a href="#" title="Golf Club Resort">Golf Club Resort</a></span></p></div>
                             </div>
                         </div>
                     </div>
@@ -198,7 +199,7 @@
 
      <!-- FEATURED DEALS section -->
             <div class="row sub1">
-                    <div class="sub2"><span class="pull-left headings">FEATURED CLASSIFIEDS</span><span class="pull-right">View all deals</span></div>
+                    <div class="sub2"><span class="pull-left headings">featured classifieds</span><span class="pull-right">View all deals</span></div>
                 </div>
                 <div class="deals">
                     <div class="product_listing">
@@ -238,40 +239,40 @@
     <!-- RECENT ARTICLES section -->
   
                 <div class="row sub1">
-                    <div class="sub2"><span class="pull-left headings">RECENT ARTICLES</span><span class="pull-right">View all articles</span></div>
+                    <div class="sub2"><span class="pull-left headings">recent articles</span><span class="pull-right">View all articles</span></div>
                 </div>
                 <div class="articles">
                     <div class="col-md-12">
                         <div class="col-md-7">
                             <div class="featured-item">
                                 <a href="#"><img src="images/calc.jpg" alt="Investing in Stocks" class="pull-left stock"></a>
-                                <strong><a href="#">Investing in Stocks</a></strong>
+                                <span class="bld"><a href="#">Investing in Stocks</a></span>
                                 <p>Published: 05/12/2010 by <a href="#" target="_blank"> Olivia Matthew</a> in <a href="#">Finance</a> This is example text for the overview section. This is my boss, Jonathan Hart, a self-made millionaire, he's quite a guy</p>
                             </div>
                             <div class="featured-item">
                                 <a href="#"><img src="images/calc.jpg" alt="Investing in Stocks" class="pull-left stock"></a>
-                                <strong><a href="#">Investing in Stocks</a></strong>
+                                <span class="bld"><a href="#">Investing in Stocks</a></span>
                                 <p>Published: 05/12/2010 by <a href="#" target="_blank"> Olivia Matthew</a> in <a href="#">Finance</a> This is example text for the overview section. This is my boss, Jonathan Hart, a self-made millionaire, he's quite a guy</p>
                             </div>
                         </div>
                         <div class="col-md-5">
                             <div class="other_info">
                                 <p>
-                                    <strong><a href="#">Personal Growth	Personal Growth</a></strong>
-                                    <br/>in <a href="#">Life Style</a> - 01/01/2010
+                                    <span class="bld"><a href="#">Personal Growth</a></span>
+                                    <span>in <a href="#">Life Style</a> - 01/01/2010</span>
                                 </p>
 
                                 <p>
-                                    <strong><a href="#">Starting a Business</a></strong>
-                                    <br/>in <a href="#">Business</a> - 12/26/2009
+                                    <span class="bld"><a href="#">Starting a Business</a></span>
+                                    <span>in <a href="#">Business</a> - 12/26/2009</span>
                                 </p>
                                 <p>
-                                    <strong><a href="#">Health for kids</a></strong>
-                                    <br/>in <a href="#">Fitness</a> - 12/21/2009
+                                    <span class="bld"><a href="#">Health for kids</a></span>
+                                    <span>in <a href="#">Fitness</a> - 12/21/2009</span>
                                 </p>
                                 <p>
-                                    <strong><a href="#">The future of recycling</a></strong>
-                                    <br/>in <a href="#">Volunteer</a> - 07/04/2009
+                                    <span class="bld"><a href="#">The future of recycling</a></span>
+                                    <span>in <a href="#">Volunteer</a> - 07/04/2009</span>
                                 </p>
                             </div>
                         </div>
@@ -283,7 +284,7 @@
         </div>
  <!-- CATEGORY section -->
         <div class="col-md-4 rightpanel">
-            <div class="sub1">BROWSE BY CATEGORY</div>
+            <div class="sub1">browse by category</div>
             <div class="panel-group right-col" id="accordion">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -293,10 +294,10 @@
                     <div id="collapseOne" class="panel-collapse collapse in">
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked">
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
                                 
                             </ul>
                         </div>
@@ -310,10 +311,10 @@
                     <div id="collapseTwo" class="panel-collapse collapse">
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked">
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
                                 
                             </ul>
                         </div>
@@ -327,9 +328,9 @@
                     <div id="collapseThree" class="panel-collapse collapse">
                         <div class="panel-body">
                             <ul class="nav nav-pills nav-stacked">
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
-                                <li><span><a href="#"> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
+                                <li><span><a href="#"><span class="fa fa-angle-double-right"></span> Auto</a></span><span class="no">(35)</span></li>
                                 
                             </ul>
                         </div>
@@ -340,7 +341,7 @@
  
 
             <!-- random items section -->
-            <div class="title sub1">RANDOM ITEMS</div>
+            <div class="title sub1">random items</div>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">
@@ -370,21 +371,21 @@
   
 
             <!-- RECENT REVIEWS section -->
-            <div class="sub1">RECENT REVIEWS</div>
+            <div class="sub1">recent reviews</div>
             <div class="reviews-item">
                   <div class="media">
                                 <div class="media-left media-top">
                                     <img src="images/pic.jpg" />
                                 </div>
                                 <div class="media-body">
-                                    <a href="#">Ann Hotel</a><br>
-                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i><br>
-                                    <a href="#"> Read More</a>
+                                    <div><a href="#">Ann Hotel</a></div>
+                                    <div><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star-half"></span> </div>
+                                    <div><a href="#"> Read More</a></div>
                                 </div>
                    </div>
                
                 <p>The staff are the best! The rooms were clean! The parking was great!I had a great stay there! Can't wait to come back!!</p>
-                <div class="who"><p>by <a href="#">John</a><br>Arlington, VA, 08/05/2011 - 03:37 pm</p></div>
+                <div class="who"><p>by <a href="#">John</a><div>Arlington, VA, 08/05/2011 - 03:37 pm</div></p></div>
             </div>
             <div class="reviews-item">
                   <div class="media">
@@ -392,14 +393,14 @@
                                     <img src="images/pic.jpg" />
                                 </div>
                                 <div class="media-body">
-                                    <a href="#">Ann Hotel</a><br>
-                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><br>
-                                    <a href="#"> Read More</a>
+                                    <div><a href="#">Ann Hotel</a></div>
+                                    <div><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> </div>
+                                    <div><a href="#"> Read More</a></div>
                                 </div>
                    </div>
                
                 <p>The staff are the best! The rooms were clean! The parking was great!I had a great stay there! Can't wait to come back!!</p>
-                <div class="who"><p>by <a href="#">John</a><br>Arlington, VA, 08/05/2011 - 03:37 pm</p></div>
+                <div class="who"><p>by <a href="#">John</a><div>Arlington, VA, 08/05/2011 - 03:37 pm</div></p></div>
             </div>
             <div class="reviews-item">
                   <div class="media">
@@ -407,14 +408,14 @@
                                     <img src="images/pic.jpg" />
                                 </div>
                                 <div class="media-body">
-                                    <a href="#">Ann Hotel</a><br>
-                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><br>
-                                    <a href="#"> Read More</a>
+                                    <div><a href="#">Ann Hotel</a></div>
+                                    <div><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> </div>
+                                    <div><a href="#"> Read More</a></div>
                                 </div>
                    </div>
                
                 <p>The staff are the best! The rooms were clean! The parking was great!I had a great stay there! Can't wait to come back!!</p>
-                <div class="who"><p>by <a href="#">John</a><br>Arlington, VA, 08/05/2011 - 03:37 pm</p></div>
+                <div class="who"><p>by <a href="#">John</a><div>Arlington, VA, 08/05/2011 - 03:37 pm</div></p></div>
             </div>
             
         </div>
@@ -430,19 +431,19 @@
     				<div class="col-md-3">
 						<h4 class="">Information</h4>
 						<ul>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Delivery Information</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li><span class="fa fa-square"></span><a href="#">About Us</a></li>
+							<li><span class="fa fa-square"></span><a href="#">Delivery Information</a></li>
+							<li><span class="fa fa-square"></span><a href="#">Privacy Policy</a></li>
+							<li><span class="fa fa-square"></span><a href="#">Terms &amp; Conditions</a></li>
 						</ul>					
 					</div>
 					<div class="col-md-3">
 						<h4>My Account</h4>
 						<ul>
-							<li><a href="#">My Account</a></li>
-							<li><a href="#">Order History</a></li>
-							<li><a href="#">Wish List</a></li>
-							<li><a href="#">Newsletter</a></li>
+							<li><span class="fa fa-square"></span><a href="#">My Account</a></li>
+							<li><span class="fa fa-square"></span><a href="#">Order History</a></li>
+							<li><span class="fa fa-square"></span><a href="#">Wish List</a></li>
+							<li><span class="fa fa-square"></span><a href="#">Newsletter</a></li>
 						</ul>
 					</div>
 					<div class="col-md-3">
@@ -458,8 +459,8 @@
 						<div class="company_info">
 							<h4>eDirectory</h4>
 							<p><h5>
-								74/6 Nguyen Van Thoai, Da Nang, Viet Nam<br/>
-								Tel: +84 905276796</h5>
+								74/6 Nguyen Van Thoai, Da Nang, Viet Nam
+								<div>Tel: +84 905276796</div></h5>
 							</p>
 						</div>
 					</div>						

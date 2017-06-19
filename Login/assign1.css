@@ -74,6 +74,7 @@ body{
 	  margin-bottom: 8%;
   	border-bottom: 1px solid #c4c4c4;
 }
+label{visibility: hidden; width: 0;}
 .fa{background-color: transparent; border: none;}
 .male{
     color: #21c9a6;
@@ -96,6 +97,7 @@ input:hover,input:focus, .Rounded-Rectangle-1:hover{outline: none; border:none;}
     border-radius: 2px;
     background-color: #21c9a6;
     box-shadow: 0px 2px 3px 0 rgba(24, 24, 25, 0.15);
+    text-transform: uppercase;
 }
 .Forgot-password a{
   text-decoration:none;
