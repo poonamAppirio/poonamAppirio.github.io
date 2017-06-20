@@ -122,9 +122,9 @@ h1{
 .table-lookalike .last-ul{border-right: 1px solid lightgrey;}
 .table-lookalike ul li:nth-child(even){background-color: #eeeeee;}
 .table-lookalike ul li .btn{background-color: #E9756D; color:white; width: 80%; padding: 10px;}
-.owl-prev, .owl-next{ color: #E9756D !important; background-color: transparent !important; margin-top: -70px !important;}
-.owl-next{ float: right !important; margin-right: -50px !important;}
-.owl-prev{ float: left !important; margin-left: -50px !important;}
+.carouselHere .owl-nav .owl-prev, .carouselHere .owl-nav .owl-next{ color: #E9756D; background-color: transparent; margin-top: -70px;}
+.carouselHere .owl-nav .owl-next{ float: right; margin-right: -50px;}
+.carouselHere .owl-nav .owl-prev{ float: left; margin-left: -50px;}
 .owl-theme img{ border-radius: 50%;}
 .arrow-left, .arrow-right{ font-size: 50px; background-color: transparent; }
 .owl-dot .active{color: #e8776b;}
